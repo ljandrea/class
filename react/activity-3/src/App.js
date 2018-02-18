@@ -16,12 +16,14 @@ class App extends Component {
             data: [],
             xVariable: 'Year',
         };
+        console.log(this.state.xVariable);
     }
     updateXvar(d) {
-        console.log('d', d);
+        // console.log('d', d);
         this.setState({
             xVariable: d
         });
+        console.log(this.state.xVariable);
     }
     componentDidMount() {
         // Load data
