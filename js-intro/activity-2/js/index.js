@@ -17,6 +17,7 @@ ctx.strokeStyle = 2;
 let input = document.getElementById('textInput');
 input.onkeydown = drawLines;
 
+<<<<<<< HEAD
 // Function to return an array of lengths from the text
 function getLinesFromText() {
     let text = document.getElementById('textInput').value;
@@ -80,6 +81,12 @@ function drawLines() {
         ctx.lineTo(position.x, position.y);
     });
     ctx.stroke();
+=======
+
+// Function to draw lines
+function drawLines() {
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 }
 
 

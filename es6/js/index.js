@@ -4,6 +4,7 @@
 // Class Puppy
 class Puppy {
     // Constructor: takes in an img url, and a sound
+<<<<<<< HEAD
     constructor(img = "https://www.cesarsway.com/sites/newcesarsway/files/styles/large_article_preview/public/All-about-puppies--Cesar%E2%80%99s-tips%2C-tricks-and-advice.jpg?itok=bi9xUvwe", sound = "bark") {
         this.img = img;
         this.sound = sound;
@@ -23,6 +24,13 @@ class Puppy {
         puppyCard.click(() => this.bark());
         return puppyCard;
     }
+=======
+
+    // Method for "speaking" using responsiveVoice
+
+    // Render a Div that you can click on to bark
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 }
 
 
@@ -66,6 +74,7 @@ class PuppyForm {
 // Class for the app
 class PuppyApp {
     // Constructor: takes in a parent element and list of puppies
+<<<<<<< HEAD
     constructor(parentElement, puppyList) {
         this.parentElement = parentElement;
         this.puppyList = puppyList;
@@ -79,10 +88,16 @@ class PuppyApp {
         });
         this.render();
     }
+=======
+
+    // Add puppy: pushes new data into list of puppies and re-renders the app
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 
     // Render;
     render() {
         // Empty parent element
+<<<<<<< HEAD
         this.parentElement.empty();
 
         // Create and render a new form
@@ -96,10 +111,19 @@ class PuppyApp {
             let newPuppy = new Puppy(puppyInfo.url, puppyInfo.sound);
             puppyWrapper.append(newPuppy.render());
         });
+=======
+
+
+        // Create and render a new form
+
+        // Append puppy list element to parent (in a wrapper div)
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
     }
 }
 
 // Create a new app with a single puppy
+<<<<<<< HEAD
 let app = new PuppyApp(
     $('#content'),
     [{
@@ -110,3 +134,8 @@ let app = new PuppyApp(
 
 // Render the app
 app.render();
+=======
+
+
+// Render the app
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106

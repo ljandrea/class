@@ -1,9 +1,14 @@
 // Main JavaScript File: enable strict mode
+<<<<<<< HEAD
 'use strict';
+=======
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 
 /* ******************** Basic variables and methods ******************* */
 
 // Create a string variable, then print it out to the console ("log" it)
+<<<<<<< HEAD
 let str = "this is a sentence";
 
 // Use the length property to see how many characters are in your `str` variable
@@ -37,11 +42,42 @@ let meals = {
 // Add "pizza" to your dinner. Log your meals to the console.
 meals.dinner.push("pizza");
 console.log(meals);
+=======
+
+
+// Use the length property to see how many characters are in your `str` variable
+// Log the result
+
+
+// Use the `toUpperCase` method to create a new variable `upperStr` that has the `str` value, but all UPPPERCASE.
+
+
+// Use the "split" method create a new variable `words` that is an array of the component words of `str`
+
+
+// Use the length property to see how many words are in your `words` array
+// Log your result
+
+
+// Create an array "breakfast" of everything that you ate for breakfast
+
+
+// Log the phrase 'I had N items for breakfast'
+
+
+// Create an object "meals" with keys for breakfast, lunch, and dinner
+// The values should be arrays of items for each meal
+
+
+// Add "pizza" to your dinner. Log your meals to the console.
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 
 /* ******************** Basic functions and control structures ******************* */
 
 // Write a function that returns the number of words in a string
 // Hint: use the `split` method
+<<<<<<< HEAD
 function numWords(word) {
     return (word.split(' ').length);
 }
@@ -58,10 +94,24 @@ function contains(str, word) {
 // Pass a phrase and a string to your function to determine that it works.
 // Log the result.
 console.log(contains('This is a test', 'test'));
+=======
+
+
+// Pass a string to your function to determine that it works
+// Log the result
+
+
+// Write a function to test if a string contains a word, and returns a boolean value.
+
+
+// Pass a phrase and a string to your function to determine that it works.
+// Log the result.
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 
 /* ******************** Loops ******************* */
 // Create an array of 40 students by looping through the numbers 1 through 40.
 // Hint: create an empty array to start.
+<<<<<<< HEAD
 let students = [];
 for (let i = 1; i <= 40; i++) {
     students.push('student ' + i);
@@ -80,4 +130,15 @@ for (let i = 1; i <= 40; i++) {
 
 // Log your array of students (again)
 console.log(students);
+=======
+
+
+// Log your array of students
+
+// Add "(I like programming)" to the end of each student whose number is divisible by 10
+// Remeber that JavaScript starts indexing at *0*
+
+
+// Log your array of students (again)
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
 

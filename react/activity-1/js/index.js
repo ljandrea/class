@@ -8,6 +8,7 @@ const people = [
 ];
 
 // Class for an individual person
+<<<<<<< HEAD
 class Person extends React.Component {
     render() {
         return (
@@ -31,3 +32,11 @@ ReactDOM.render(
     <People group={people} />,
     document.querySelector('main')
 );
+=======
+
+
+// Class to represent a group of people
+
+// Render your component in the `main` section
+
+>>>>>>> 71a955aed51715dbe44cf7910b7cfa01165b1106
