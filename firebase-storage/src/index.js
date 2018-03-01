@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import firebase from 'firebase';
 let config = {
-    apiKey: "AIzaSyB85k77rCqbGvLh7yTibvw31LEVRRocJH4",
-    authDomain: "fir-storage-6a6d4.firebaseapp.com",
-    databaseURL: "https://fir-storage-6a6d4.firebaseio.com",
-    projectId: "fir-storage-6a6d4",
-    storageBucket: "fir-storage-6a6d4.appspot.com",
-    messagingSenderId: "357172934329"
-  };
+    apiKey: "AIzaSyCUUheEHmyt3pjZ4_aKQMl0yT0H9kn4j-c",
+    authDomain: "class-storage-demo.firebaseapp.com",
+    databaseURL: "https://class-storage-demo.firebaseio.com",
+    projectId: "class-storage-demo",
+    storageBucket: "class-storage-demo.appspot.com",
+    messagingSenderId: "604664366056"
+};
 firebase.initializeApp(config);
 ReactDOM.render(<App />, document.getElementById('root'));
 
