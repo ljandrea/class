@@ -19,6 +19,7 @@ export class Projects extends Component {
     render() {
         console.log(this.state.data)
         return <div className="container">Projects
+<<<<<<< HEAD
                  { /* Render a card for each element in your data */}
             {this.state.data.map((d) => {
                 return
@@ -33,5 +34,27 @@ export class Projects extends Component {
                 </Col>
             })}
         </div>
+=======
+                 { this.state.data.map((d, i) => {
+                       return <Col sm="6" key={ "project" + i }>
+                              <Card>
+                                <CardBody>
+                                  <CardTitle>
+                                    { d.title }
+                                  </CardTitle>
+                                  <CardText>
+                                    { d.description }
+                                  </CardText>
+                                  <a target="_blank" href={ d.link }>
+                                    <Button>Link</Button>
+                                  </a>
+                                </CardBody>
+                              </Card>
+                              <br/>
+                              </Col>
+                   
+                   }) }
+               </div>
+>>>>>>> 15aadac3fc9b7ac086f6178e26da0210bc48cd70
     }
 }
